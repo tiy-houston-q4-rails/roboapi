@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+
+  namespace :api do
+    get 'robots' => 'robots#index'
+    post "sessions" => 'sessions#sign_in'
+    post "users" => 'users#create'
+    get "me" => 'users#show'
+
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
