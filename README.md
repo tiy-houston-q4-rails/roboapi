@@ -92,14 +92,14 @@ calculate","photo":{"url":"/uploads/robot/photo/9/my-own-slug.png","thumb":{"url
 input","photo":{"url":"/uploads/robot/photo/10/my-own-slug.png","thumb":{"url":"/uploads/robot/photo/10/thumb_my-own-slug.png"},"large":{"url":"/uploads/robot/photo/10/large_my-own-slug.png"}},"created_at":"2014-11-18T14:47:42.544Z","updated_at":"2014-11-18T14:47:42.544Z"}]}
 ```
 
- TODO
- ========
+TODO
+========
 
  1. Change format of the JSON returned from api/robots
  2. Return the robot's missions and missions
  3. Allow CRUD for robots, missions and robot-missions
 
- LICENSE
- ==========
+LICENSE
+==========
 
  See LICENSE (MIT)
