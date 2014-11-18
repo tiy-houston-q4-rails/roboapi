@@ -70,3 +70,11 @@ headers:
  * `ACCEPT: application/json`
  * `CONTENT_TYPE: application/json`
  * `x-auth-token: $AUTH-TOKEN`
+
+
+ TODO
+ ========
+
+ 1. Change format of the JSON returned from api/robots
+ 2. Return the robot's missions and missions
+ 3. Allow CRUD for robots, missions and robot-missions
