@@ -80,4 +80,5 @@ Rails.application.configure do
       origins '*'
       resource '*', :headers => :any, :methods => [:get, :post, :options]
     end
+  end
 end
