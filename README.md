@@ -78,3 +78,8 @@ headers:
  1. Change format of the JSON returned from api/robots
  2. Return the robot's missions and missions
  3. Allow CRUD for robots, missions and robot-missions
+
+ LICENSE
+ ==========
+
+ See LICENSE (MIT)
