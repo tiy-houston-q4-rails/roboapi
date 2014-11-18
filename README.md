@@ -14,6 +14,14 @@ CORS
 Endpoints
 =========
 
+Notes:
+* All authenticated endpoints will return a 401 with no body if you are
+  un-authed
+* You'll post to sign-in to get an auth-token, which then is sent as
+  x-auth-token header for future requests
+* You can sign-in or create a user to get an auth token
+* SSL is enforced throughout
+
 Sign In User
 -----------
 
@@ -31,6 +39,7 @@ sample json:
   "password": "yolo23456"
 }
 ```
+
 Creating User
 ------------
 
@@ -49,6 +58,12 @@ sample json:
     "password": "yolo23456"
   }
 }
+```
+
+Sample result:
+
+```json
+{"id":1,"email":"jwo@comal.io","auth_token":"6a902db382002a98de3dd30be25540cd","created_at":"2014-11-18T14:48:45.348Z","updated_at":"2014-11-18T14:48:45.348Z"}
 ```
 
 Get Profile
